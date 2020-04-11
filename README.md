@@ -1,4 +1,4 @@
-**Deprecated: this repository is no longer the recommended way of deploying Node-RED to IBM Cloud. It will not be receiving any new fixes or updates.**
+### ThinkLAB 
 
 
 Please refer to [this IBM Developer tutorial](https://developer.ibm.com/tutorials/how-to-create-a-node-red-starter-application/) for how to create a new Node-RED Starter Application in IBM Cloud.
