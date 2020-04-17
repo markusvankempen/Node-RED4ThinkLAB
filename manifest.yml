@@ -1,5 +1,7 @@
 applications:
 - memory: 256M
+  services:
+  - think18-iotf-service
   env:
     OPTIMIZE_MEMORY: true
   command: node index.js --settings ./bluemix-settings.js -v
