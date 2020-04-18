@@ -11,9 +11,6 @@ declared-services:
   09tlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB	
     plan:  Lite
-  10tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite
   11tlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB	
     plan:  Lite 
@@ -22,13 +19,7 @@ declared-services:
     plan:  Lite 
   13tlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB	
-    plan:  Lite
-  14tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite 
-  15tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite    
+    plan:  Lite  
   19tlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB	
     plan:  Lite
@@ -44,10 +35,30 @@ declared-services:
   23tlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB	
     plan:  Lite 
-  23tlab-cloudantNoSQLDB:	
+  24tlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB	
     plan:  Lite    
-    
+  25tlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB	
+    plan:  Lite  
+  26tlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB	
+    plan:  Lite 
+  27tlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB	
+    plan:  Lite 
+  28tlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB	
+    plan:  Lite
+  29tlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB	
+    plan:  Lite 
+  30tlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB	
+    plan:  Lite    
+  31tlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB	
+    plan:  Lite     
 applications:
 - memory: 256M
   services:
