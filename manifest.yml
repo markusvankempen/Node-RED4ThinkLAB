@@ -1,62 +1,38 @@
 declared-services:	
-  06tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite
-  07tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite
-  08tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite
-  09tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite
-  11tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite 
-  12tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite 
-  13tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite  
-  19tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite
-  20tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite 
-  21tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite 
-  22tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite
-  23tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite 
-  24tlab-cloudantNoSQLDB:	
+  32tlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB	
     plan:  Lite    
-  25tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite  
-  26tlab-cloudantNoSQLDB:	
+  33tlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB	
     plan:  Lite 
-  27tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite 
-  28tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite
-  29tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite 
-  30tlab-cloudantNoSQLDB:	
+  34tlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB	
     plan:  Lite    
-  31tlab-cloudantNoSQLDB:	
+  35tlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB	
+    plan:  Lite 
+  36tlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB	
+    plan:  Lite    
+  37tlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB	
+    plan:  Lite 
+  38tlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB	
+    plan:  Lite    
+  39tlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB	
+    plan:  Lite 
+  40tlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB	
+    plan:  Lite 
+  41tlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB	
+    plan:  Lite  
+  42tlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB	
+    plan:  Lite 
+  43tlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB	
     plan:  Lite     
 applications:
