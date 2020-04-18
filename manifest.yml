@@ -2,13 +2,13 @@ applications:
 - memory: 256M
   services:
   - think18-iotf-service
-  - 15tl-cloudantNoSQLDB
-  name: thinklab15
+  - 14tl-cloudantNoSQLDB
+  name: thinklab14
   env:
     OPTIMIZE_MEMORY: true
-    NODE_RED_STORAGE_NAME: 15tl-cloudantNoSQLDB	
+    NODE_RED_STORAGE_NAME: 14tl-cloudantNoSQLDB	
   command: node index.js --settings ./bluemix-settings.js -v
 declared-services:	
-  10tl-cloudantNoSQLDB:	
+  14tl-cloudantNoSQLDB:	
     label: cloudantNoSQLDB	
     plan:  Lite  
