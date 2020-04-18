@@ -2,7 +2,8 @@ applications:
 - memory: 256M
   services:
   - think18-iotf-service
-  - 15tl-cloudantNoSQLDB	
+  - 15tl-cloudantNoSQLDB
+  name: thinklab15
   env:
     OPTIMIZE_MEMORY: true
     NODE_RED_STORAGE_NAME: 15tl-cloudantNoSQLDB	
