@@ -1,28 +1,28 @@
 declared-services:	
-  03tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite  
-  04tlab-cloudantNoSQLDB:	
+  05tlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB	
     plan:  Lite
-  016tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite  
-  017tlab-cloudantNoSQLDB:	
+  06tlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB	
     plan:  Lite
-  018tlab-cloudantNoSQLDB:	
+  07tlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB	
-    plan:  Lite      
+    plan:  Lite
+  08tlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB	
+    plan:  Lite
+  09tlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB	
+    plan:  Lite
+  10tlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB	
+    plan:  Lite    
 applications:
 - memory: 256M
   services:
   - think18-iotf-service
-  - 03tlab-cloudantNoSQLDB
-  - 04tlab-cloudantNoSQLDB
-  - 16tlab-cloudantNoSQLDB
-  - 17tlab-cloudantNoSQLDB  
+  - 05tlab-cloudantNoSQLDB
   env:
     OPTIMIZE_MEMORY: true
-    NODE_RED_STORAGE_NAME: 04tlab-cloudantNoSQLDB	
+    NODE_RED_STORAGE_NAME: 05tlab-cloudantNoSQLDB	
   command: node index.js --settings ./bluemix-settings.js -v
