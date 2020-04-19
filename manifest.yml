@@ -44,7 +44,7 @@ declared-services:
 applications:
 - memory: 256M
   services:
-  - thinklabs2020-iot-service
+  - speedb1-iotf-service
   - 00tlab-cloudantNoSQLDB
   env:
     OPTIMIZE_MEMORY: true
