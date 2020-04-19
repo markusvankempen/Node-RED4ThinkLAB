@@ -14,7 +14,7 @@ declared-services:
 applications:
 - memory: 256M
   services:
-  - speedb1-iotf-service
+  - Internet of Things Platform-snpkids
   - 00tlab-cloudantNoSQLDB
   env:
     OPTIMIZE_MEMORY: true
