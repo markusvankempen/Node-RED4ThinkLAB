@@ -1,13 +1,40 @@
 declared-services:	
-  00myiotlab-cloudantNoSQLDB:	
+  01myiotlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB
     plan: Standard
+  02myiotlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB
+    plan: Standard
+  03myiotlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB
+    plan: Standard
+  04myiotlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB
+    plan: Standard  
+  05myiotlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB
+    plan: Standard
+  06myiotlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB
+    plan: Standard
+  07myiotlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB
+    plan: Standard
+  08myiotlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB
+    plan: Standard
+  09myiotlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB
+    plan: Standard
+  10myiotlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB
+    plan: Standard       
 applications:
 - memory: 256M
   services:
   - speedb1-iotf-service
-  - 00myiotlab-cloudantNoSQLDB
+  - 01myiotlab-cloudantNoSQLDB
   env:
     OPTIMIZE_MEMORY: true
-    NODE_RED_STORAGE_NAME: 00myiotlab-cloudantNoSQLDB	
+    NODE_RED_STORAGE_NAME: 01myiotlab-cloudantNoSQLDB	
   command: node index.js --settings ./bluemix-settings.js -v
