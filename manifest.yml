@@ -33,8 +33,8 @@ applications:
 - memory: 256M
   services:
   - speedb1-iotf-service
-  - 01myiotlab-cloudantNoSQLDB
+  - 02myiotlab-cloudantNoSQLDB
   env:
     OPTIMIZE_MEMORY: true
-    NODE_RED_STORAGE_NAME: 01myiotlab-cloudantNoSQLDB	
+    NODE_RED_STORAGE_NAME: 02myiotlab-cloudantNoSQLDB	
   command: node index.js --settings ./bluemix-settings.js -v
