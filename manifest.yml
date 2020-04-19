@@ -28,7 +28,37 @@ declared-services:
     plan: Standard
   20myiotlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB
-    plan: Standard       
+    plan: Standard 
+  21myiotlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB
+    plan: Standard
+  22myiotlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB
+    plan: Standard
+  23myiotlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB
+    plan: Standard
+  24myiotlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB
+    plan: Standard  
+  25myiotlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB
+    plan: Standard
+  26myiotlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB
+    plan: Standard
+  27myiotlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB
+    plan: Standard
+  28myiotlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB
+    plan: Standard
+  29myiotlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB
+    plan: Standard
+  30myiotlab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB
+    plan: Standard    
 applications:
 - memory: 256M
   services:
