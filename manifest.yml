@@ -2,43 +2,13 @@ declared-services:
   00tlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB	
     plan:  Lite 
-  thinklabs2020-iot-service:
-    label: iotf-service
-    plan: iotf-service-free
-  32tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite    
-  33tlab-cloudantNoSQLDB:	
+  01tlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB	
     plan:  Lite 
-  34tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite    
-  35tlab-cloudantNoSQLDB:	
+  02tlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB	
     plan:  Lite 
-  36tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite    
-  37tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite 
-  38tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite    
-  39tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite 
-  40tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite 
-  41tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite  
-  42tlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
-    plan:  Lite 
-  43tlab-cloudantNoSQLDB:	
+  03tlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB	
     plan:  Lite     
 applications:
