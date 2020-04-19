@@ -1,7 +1,10 @@
 declared-services:	
   00tlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB	
-    plan:  Lite  
+    plan:  Lite 
+  thinklabs2020-iot-service:
+    label: iotf-service
+    plan: iotf-service-free
   32tlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB	
     plan:  Lite    
@@ -41,7 +44,7 @@ declared-services:
 applications:
 - memory: 256M
   services:
-  - think18-iotf-service
+  - thinklabs2020-iot-service
   - 00tlab-cloudantNoSQLDB
   env:
     OPTIMIZE_MEMORY: true
