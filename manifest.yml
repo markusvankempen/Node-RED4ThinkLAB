@@ -1,70 +1,46 @@
 declared-services:	
-  11myiotlab-cloudantNoSQLDB:	
+  31myiotlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB
     plan: Standard
-  12myiotlab-cloudantNoSQLDB:	
+  32myiotlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB
     plan: Standard
-  13myiotlab-cloudantNoSQLDB:	
+  33myiotlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB
     plan: Standard
-  14myiotlab-cloudantNoSQLDB:	
+  34myiotlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB
     plan: Standard  
-  15myiotlab-cloudantNoSQLDB:	
+  35myiotlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB
     plan: Standard
-  16myiotlab-cloudantNoSQLDB:	
+  36myiotlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB
     plan: Standard
-  17myiotlab-cloudantNoSQLDB:	
+  37myiotlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB
     plan: Standard
-  18myiotlab-cloudantNoSQLDB:	
+  38myiotlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB
     plan: Standard
-  19myiotlab-cloudantNoSQLDB:	
+  39myiotlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB
     plan: Standard
-  20myiotlab-cloudantNoSQLDB:	
+  40myiotlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB
     plan: Standard 
-  21myiotlab-cloudantNoSQLDB:	
+  41myiotlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB
     plan: Standard
-  22myiotlab-cloudantNoSQLDB:	
+  1239myiotlab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB
     plan: Standard
-  23myiotlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB
-    plan: Standard
-  24myiotlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB
-    plan: Standard  
-  25myiotlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB
-    plan: Standard
-  26myiotlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB
-    plan: Standard
-  27myiotlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB
-    plan: Standard
-  28myiotlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB
-    plan: Standard
-  29myiotlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB
-    plan: Standard
-  30myiotlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB
-    plan: Standard    
 applications:
 - memory: 256M
   services:
   - speedb1-iotf-service
-  - 02myiotlab-cloudantNoSQLDB
+  - 03myiotlab-cloudantNoSQLDB
   env:
     OPTIMIZE_MEMORY: true
-    NODE_RED_STORAGE_NAME: 02myiotlab-cloudantNoSQLDB	
+    NODE_RED_STORAGE_NAME: 03myiotlab-cloudantNoSQLDB	
   command: node index.js --settings ./bluemix-settings.js -v
