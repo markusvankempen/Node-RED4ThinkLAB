@@ -1,6 +1,7 @@
 declared-services:	
   00myiotlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB	
+    label: cloudantNoSQLDB
+    plan: Standard
 applications:
 - memory: 256M
   services:
