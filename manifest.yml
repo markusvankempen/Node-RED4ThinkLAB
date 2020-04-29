@@ -1,13 +1,19 @@
 declared-services:	
-  42thinklab-cloudantNoSQLDB:	
+  43thinklab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB
     plan: Lite
+  44thinklab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB
+    plan: Lite
+  45thinklab-cloudantNoSQLDB:	
+    label: cloudantNoSQLDB
+    plan: Lite  
 applications:
 - memory: 256M
   services:
   - think18-iotf-service
-  - 42thinklab-cloudantNoSQLDB
+  - 43thinklab-cloudantNoSQLDB
   env:
     OPTIMIZE_MEMORY: true
-    NODE_RED_STORAGE_NAME: 42thinklab-cloudantNoSQLDB	
+    NODE_RED_STORAGE_NAME: 43thinklab-cloudantNoSQLDB	
   command: node index.js --settings ./bluemix-settings.js -v
