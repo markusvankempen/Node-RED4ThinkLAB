@@ -1,46 +1,13 @@
 declared-services:	
-  31myiotlab-cloudantNoSQLDB:	
+  42thinklab-cloudantNoSQLDB:	
     label: cloudantNoSQLDB
-    plan: Standard
-  32myiotlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB
-    plan: Standard
-  33myiotlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB
-    plan: Standard
-  34myiotlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB
-    plan: Standard  
-  35myiotlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB
-    plan: Standard
-  36myiotlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB
-    plan: Standard
-  37myiotlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB
-    plan: Standard
-  38myiotlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB
-    plan: Standard
-  39myiotlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB
-    plan: Standard
-  40myiotlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB
-    plan: Standard 
-  41myiotlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB
-    plan: Standard
-  1239myiotlab-cloudantNoSQLDB:	
-    label: cloudantNoSQLDB
-    plan: Standard
+    plan: Lite
 applications:
 - memory: 256M
   services:
-  - speedb1-iotf-service
-  - 03myiotlab-cloudantNoSQLDB
+  - think18-iotf-service
+  - 42thinklab-cloudantNoSQLDB
   env:
     OPTIMIZE_MEMORY: true
-    NODE_RED_STORAGE_NAME: 03myiotlab-cloudantNoSQLDB	
+    NODE_RED_STORAGE_NAME: 42thinklab-cloudantNoSQLDB	
   command: node index.js --settings ./bluemix-settings.js -v
